@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		89BEC2522020724A00DBFF82 /* tester_opencv */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tester_opencv; sourceTree = BUILT_PRODUCTS_DIR; };
 		89BEC2552020724A00DBFF82 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		89F2E5A22022366000DCC794 /* haarcascade_frontalface_alt.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt.xml; sourceTree = "<group>"; };
+		89F2E5A32022366000DCC794 /* haarcascade_eye_tree_eyeglasses.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_eye_tree_eyeglasses.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,8 @@
 		89BEC2542020724A00DBFF82 /* tester_opencv */ = {
 			isa = PBXGroup;
 			children = (
+				89F2E5A32022366000DCC794 /* haarcascade_eye_tree_eyeglasses.xml */,
+				89F2E5A22022366000DCC794 /* haarcascade_frontalface_alt.xml */,
 				89BEC2552020724A00DBFF82 /* main.cpp */,
 			);
 			path = tester_opencv;
